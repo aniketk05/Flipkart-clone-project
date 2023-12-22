@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        @media  screen and (max-width:1000px) {
+
+  
+nav{
+    flex-direction: column;
+}
+.logo{
+    justify-content: center;
+}
+nav ul{
+    justify-content: center;
+}
+.search{
+    justify-content: center;
+
+}
+.search input{
+    margin: 12px 16px;
+}
+nav ul{
+    height: 34px;
+}
+.slider{
+    height: 23vh;
+}
+.card-item img{
+    width: 100px;
+    margin: 12px;
+}
+.card-item{
+    margin: 30px;
+}
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+:root {
+    --main-bg-color: #2370f4;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 493px;
+    height: 23px;
+    border-radius: 2px;
+    margin: 0 5px 0;
+}
+
+.search button{
+    font-family: 'Gloock', serif;
+    font-weight: 500;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto ;
+    overflow: hidden;
+}
+.cards{
+    display: flex; 
+    overflow: scroll;
+}
+.card{
+    max-width:91vw;
+    margin: 37px auto;
+}
+.card h2{
+    font-size:medium ;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+.card-item{
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 8px;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+footer{
+    font-family: 'Gloock', serif;
+    height:12vh ;
+    background-color: var(--main-bg-color);
+    color: white;
+
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding:5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor:pointer;
+}
+
+.my-1{
+    margin: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" id="" name="" placeholder="search product">
+                <button class="btn">search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="slider"><img src="https://source.unsplash.com/1000x400/?discount" alt="" ></div>
+
+            <div class="card">
+                <h2 class="my-1">Join the football fun!!!</h2>
+                <div class="cards">
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football cleats" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football jersey" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">man utd jersey</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football addidas" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">addidas copa</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football nike" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">nike mercurial </p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football puma" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">Puma king</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football new balance" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football ball</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-1">Join the football fun!!!</h2>
+                <div class="cards">
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football cleats" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football jersey" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">man utd jersey</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football addidas" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">addidas copa</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football nike" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">nike mercurial </p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football puma" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">Puma king</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football new balance" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football ball</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-1">Join the football fun!!!</h2>
+                <div class="cards">
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football cleats" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football jersey" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">man utd jersey</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football addidas" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">addidas copa</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football nike" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">nike mercurial </p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football puma" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">Puma king</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football new balance" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football ball</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my-1">Join the football fun!!!</h2>
+                <div class="cards">
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football cleats" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football shoes</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football jersey" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">man utd jersey</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football addidas" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">addidas copa</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football nike" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">nike mercurial </p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football puma" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">Puma king</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item"><img src="https://source.unsplash.com/160x160/?football new balance" alt=""
+                            width="150px">
+                        <div class="class-lines">
+                            <p class="my-1">football ball</p>
+                            <p class="my-1">min 30% off</p>
+                            <p class="my-1">grab now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; Mycart.com</p>
+    </footer>
+
+</body>
+
+</html>
